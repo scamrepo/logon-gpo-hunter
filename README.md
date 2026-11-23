@@ -58,7 +58,7 @@ Montre uniquement les GPO qui touchent la machine, dans l'ordre de précédence 
 ./logon-gpo-hunter.py --dc 10.0.0.1 -d corp.local -u analyst -H :e52c...NThash
 ```
 
-### Kerberos (contourne le LDAP channel binding / EPA)
+### Kerberos 
 
 ```bash
 export KRB5CCNAME=/tmp/analyst.ccache
